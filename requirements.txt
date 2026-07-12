@@ -1,0 +1,16 @@
+# Heart Disease Prediction — Python dependencies
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Tested with Python 3.10+
+
+pandas>=2.0        # data loading (Excel) and dataframe manipulation
+numpy>=1.24         # numeric operations, handling missing/invalid values
+scikit-learn>=1.3   # train/test split, encoders, scaler, KNN & Logistic Regression models, metrics
+openpyxl>=3.1        # required by pandas to read .xlsx files
+joblib>=1.3          # saving/loading trained model, scaler, and encoder artifacts
+
+# Optional — only needed if you want to edit/re-run the Jupyter notebook
+jupyter>=1.0
+nbconvert>=7.0
